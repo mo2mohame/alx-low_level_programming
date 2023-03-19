@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-/** 
+/**
 * main - last digit
 *
 * Describtion: execute the last digit
