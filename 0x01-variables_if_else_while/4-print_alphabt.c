@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - print the letters of the alphabet
+ *  main - alpha
  *
- * Description: print the letters of the alphabet except e, q
+ *  Description: asldjf
  *
- * Return: Always 0 (Success)
+ *  Return: 0 (Success)
  */
 
 int main(void)
@@ -18,6 +18,7 @@ int main(void)
 		{
 			putchar(i);
 		}
+
 		i++	
 	}
 
