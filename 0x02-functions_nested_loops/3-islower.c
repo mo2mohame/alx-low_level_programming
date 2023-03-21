@@ -2,6 +2,7 @@
 
 /**
  * _islower - int _islower
+ * @c: c
  *
  * Return: 1
  */
@@ -14,7 +15,7 @@ int _islower(int c)
 	}
 	else
 	{
-		return 0;
+		return (0);
 
 	}
 }
