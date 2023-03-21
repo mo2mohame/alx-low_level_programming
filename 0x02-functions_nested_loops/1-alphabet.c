@@ -1,11 +1,9 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * print_alphabet - check the code
  *
- * Description: dsgds
- *
- * Return: Always 0.
+ * Return: void
  */
 
 void print_alphabet(void)
