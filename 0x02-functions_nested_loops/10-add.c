@@ -2,6 +2,8 @@
 
 /**
  * add - sum
+ * @a: a
+ * @b: b
  *
  * Description: sum
  *
@@ -11,5 +13,6 @@
 int add(int a, int b)
 {
 	int result = a + b;
+
 	return (result);
 }
