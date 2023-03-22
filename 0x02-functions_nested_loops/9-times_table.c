@@ -10,15 +10,15 @@
 
 void times_table(void)
 {
-	int r, c, p, t, o;
+	int r, c, p, tens, ones;
 
 	for (r = 0; r <= 9; r++)
 	{
 		for (c = 0; c <= 9; c++)
 		{
 			p = r * c;
-			t = p / 10;
-			o = p % 10;
+			tens = p / 10;
+			neso = p % 10;
 
 			if (p == 0)
 			{
@@ -30,7 +30,7 @@ void times_table(void)
 				_putchar(',');
 				_putchar(' ');
 				_putchar(' ');
-				_putchar(o + '0');
+				_putchar(ones + '0');
 			}
 
 			else
