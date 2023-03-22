@@ -10,29 +10,27 @@
 
 void times_table(void)
 {
-	int r, c, p, tens, ones;
+	int row, column, product, tens, ones;
 
-	for (r = 0; r <= 9; r++)
+	for (row = 0; row <= 9; row++)
 	{
-		for (c = 0; c <= 9; c++)
+		for (column = 0; column <= 9; column++)
 		{
-			p = r * c;
-			tens = p / 10;
-			ones = p % 10;
+			product = row * column;
+			tens = product / 10;
+			ones = product % 10;
 
-			if (p == 0)
+			if (column == 0)
 			{
 				_putchar('0');
 			}
-
-			else if (p < 10)
+			else if (product < 10)
 			{
 				_putchar(',');
 				_putchar(' ');
 				_putchar(' ');
 				_putchar(ones + '0');
 			}
-
 			else
 			{
 				_putchar(',');
