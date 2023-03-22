@@ -18,7 +18,7 @@ void times_table(void)
 		{
 			p = r * c;
 			tens = p / 10;
-			neso = p % 10;
+			ones = p % 10;
 
 			if (p == 0)
 			{
