@@ -5,7 +5,7 @@
  * @a: fd
  * @b: sdgf
  *
- * Return: int 
+ * Return: mul
  */
 
 int mul(int a, int b)
