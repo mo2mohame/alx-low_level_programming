@@ -1,4 +1,4 @@
-#include "main.h"
+#include "mian.h"
 
 /**
  * print_square - draws a square
@@ -9,21 +9,20 @@
 
 void print_square(int size)
 {
-	int r;
-	int c;
+	int row;
+	int column;
 
 	if (size > 0)
 	{
-		for (r =0; r < size; r++)
+		for (row = 0; row < size; row++)
 		{
-			for (c = 0; c < size; c++)
+			for (column = 0; column < size; column++)
 			{
 				_putchar('#');
 			}
 			_putchar('\n');
 		}
 	}
-
 	else
 	{
 		_putchar('\n');
