@@ -1,21 +1,18 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
- * print_numbers - dsagsdg
+ * print_numbers - prints numbers 0-9
  *
  * Return: void
  */
 
 void print_numbers(void)
 {
-	int i = 0;
+	int c;
 
-	while (i < 10)
+	for (c = '0'; c <= '9'; c++)
 	{
-		_putchar(i);
-
-		i++;
+		_putchar(c);
 	}
-
 	_putchar('\n');
 }
